@@ -1147,14 +1147,19 @@ MOBILE RESPONSIVENESS ↓
     text-align: center;
   }
 
-  .step,
-  .value,
   .testimonial__author {
     text-align: left;
   }
 
   .step {
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .step__para {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .values__list {
@@ -1162,8 +1167,13 @@ MOBILE RESPONSIVENESS ↓
     align-items: center;
   }
 
+  .value__heading {
+    justify-content: center;
+  }
+
   .value__para {
-    max-width: 320px;
+    max-width: 280px;
+    margin: 0 auto;
   }
 
   .testimonial__author {
